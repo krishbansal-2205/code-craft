@@ -34,7 +34,7 @@ const TABS = [
    },
 ];
 
-function page() {
+function Page() {
    const { user, isLoaded } = useUser();
    const router = useRouter();
    const [activeTab, setActiveTab] = useState<'executions' | 'starred'>(
@@ -342,4 +342,4 @@ function page() {
    );
 }
 
-export default page;
+export default Page;
