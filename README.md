@@ -34,7 +34,7 @@ Follow these steps to get Code Craft running locally on your machine.
 1. **Clone the repository:**
 
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/krishbansal-2205/code-craft.git
    cd code-craft
    ```
 
@@ -54,17 +54,10 @@ Follow these steps to get Code Craft running locally on your machine.
    Create a `.env.local` file in the root of your project and add your Clerk and Convex credentials. You'll typically need:
 
    ```env
-   # Clerk
-   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_...
-   CLERK_SECRET_KEY=sk_...
-   NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-   NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-   NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
-   NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
-   CLERK_WEBHOOK_SECRET=whsec_...
-
-   # Convex
-   NEXT_PUBLIC_CONVEX_URL=https://<your-convex-project-name>.convex.cloud
+   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+   CLERK_SECRET_KEY=
+   CONVEX_DEPLOYMENT=
+   NEXT_PUBLIC_CONVEX_URL=
    ```
 
    - Obtain your Clerk keys from the [Clerk Dashboard](https://dashboard.clerk.com/).
